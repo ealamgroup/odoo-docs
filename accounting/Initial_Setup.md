@@ -1,0 +1,136 @@
+# 📊 Odoo Enterprise - Real-Life Business Scenario Demo
+
+Welcome to **eAlam Group**.  
+In this demo, we’ll walk through a complete, real-world business scenario using **Odoo Enterprise Edition**, fully integrated across:
+
+- ✅ Accounting  
+- ✅ Purchasing  
+- ✅ Sales  
+- ✅ Inventory  
+
+We'll begin by configuring the company and importing a custom chart of accounts — the financial backbone of this ERP.
+
+---
+
+## 🏢 Step 1: Company Setup
+
+**Path:**  
+`Settings → Users & Companies → Companies`
+
+**Actions:**
+- Select your main company
+- Fill in the following fields:
+  - ✅ Company Name  
+  - ✅ Currency (e.g., PKR)  
+  - ✅ Tax ID  
+  - ✅ Company Logo (optional)
+
+> 📌 Ensure that all key identification fields are filled accurately before continuing.
+
+---
+
+## 🌍 Step 2: Fiscal Localization (Pakistan or Other Country)
+
+**Path:**  
+`Settings → General Settings → Accounting`
+
+**Action:**  
+Enable **Fiscal Localization** and select:
+
+
+✅ This will automatically load Pakistan-specific:
+- Tax rules
+- Formats
+- Chart templates
+
+> 💡 Choose your country’s localization package if different.
+
+---
+
+## 📥 Step 3: Import Custom Chart of Accounts
+
+**Path:**  
+`Accounting → Configuration → Chart of Accounts → Favorites → Import Records`
+
+Prepare a `.csv` file with your chart of accounts.  
+Suggested account groups:
+
+- Fixed Assets  
+- Cash & Bank  
+- Receivables / Payables  
+- Revenue  
+- Expenses  
+
+### ✅ Field Mapping Table:
+
+| CSV Column Header | Odoo Field Name        |
+|-------------------|------------------------|
+| `Code`            | Code                   |
+| `Name`            | Name                   |
+| `Type`            | Account Type           |
+| `Group`           | Group                  |
+| `Reconcile`       | Reconcile (if needed)  |
+
+1. Upload the file  
+2. Click **Test** to check mapping  
+3. Click **Import**
+
+---
+
+## 🧾 Step 4: Review Imported Accounts
+
+You should now see all major accounts structured as follows:
+
+### ✅ Sample Account Overview:
+
+| Code   | Account Name       | Type             | Group        |
+|--------|--------------------|------------------|--------------|
+| 10000  | Fixed Assets       | Non-current      | Assets       |
+| 22000  | Account Receivable | Receivable       | Receivables  |
+| 24000  | Meezan Bank        | Bank/Cash        | Bank         |
+| 42000  | Account Payable    | Payable          | Payables     |
+| 60000  | Sales Revenue      | Income           | Revenue      |
+| 70000  | Cost of Sales      | Expense          | Expenses     |
+
+---
+
+## 🔗 Step 5: Link Default Accounts to Company
+
+**Path:**  
+`Settings → Companies → [My Company] → Accounting Tab`
+
+### 📌 Assign the following defaults:
+
+| Account Type         | Account Code | Account Name       |
+|----------------------|--------------|--------------------|
+| Account Receivable   | `22000`      | Account Receivable |
+| Account Payable      | `42000`      | Account Payable    |
+| Bank Account (Cash)  | `24000`      | Cash at Bank       |
+
+✅ These accounts are used automatically in:
+- Customer Invoices  
+- Vendor Bills  
+- Payment entries
+
+Click **Save** after linking.
+
+---
+
+## 🧹 Step 6: Clean Up Default Accounts
+
+**Path:**  
+`Accounting → Configuration → Chart of Accounts`
+
+> Odoo may have created default accounts from the localization.
+
+**Action:**
+- Select all **unused** system accounts
+- Click **Action → Delete**
+
+✅ Result:
+- Clean custom chart of accounts
+- No duplication or confusion
+
+---
+
+🎯 **You're now ready to begin purchases, inventory setup, and sales — fully linked to accounting.**
