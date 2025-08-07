@@ -1,0 +1,16 @@
+Code,Name,Type,Group,Reconcile
+10000,Fixed Assets,asset,Non-current Assets,FALSE
+20000,Current Assets,asset,Current Assets,FALSE
+22000,Account Receivable,asset,Current Assets,TRUE
+23000,Cash in Hand,asset,Current Assets,TRUE
+24000,Cash at Bank,asset,Current Assets,TRUE
+40000,Liabilities,liability,Non-current Liabilities,FALSE
+42000,Account Payable,liability,Current Liabilities,TRUE
+60000,Revenue,income,Income,FALSE
+70000,Cost of Sales,expense,Expenses,FALSE
+72000,Salaries,expense,Expenses,FALSE
+73000,Rent,expense,Expenses,FALSE
+74000,Utilities,expense,Expenses,FALSE
+75000,Misc Expenses,expense,Expenses,FALSE
+90000,Other,expense,Other Expenses,FALSE
+91000,Depreciation,expense,Other Expenses,FALSE
