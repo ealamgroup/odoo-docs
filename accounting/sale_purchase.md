@@ -1,4 +1,4 @@
-# 🔁 Part 5: Purchase & Sales Workflow (End-to-End Demo)
+# 🔁 Part 4: Purchase & Sales Workflow (End-to-End Demo)
 
 In this phase, we simulate a full business cycle:
 
