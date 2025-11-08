@@ -1,14 +1,15 @@
 Code,Name,Type,Group,Reconcile
 10000,Fixed Assets,asset_non_current,Non-current Assets,FALSE
 20000,Current Assets,asset_current,Current Assets,FALSE
-22000,Account Receivable,asset_current,Current Assets,TRUE
+22000,Account Receivable,receivable,Current Assets,TRUE
 23000,Cash in Hand,asset_current,Current Assets,TRUE
-23500,Customer Downpayment,liability_current,Current Assets,TRUE
+23500,Customer Downpayment,liability_current,Current Liabilities,TRUE
 24000,Cash at Bank,asset_current,Current Assets,TRUE
+24500,Stripe Bank,asset_current,Current Assets,TRUE
 29998,Suspense,asset_current,Current Assets,TRUE
-29999,Clearing Account,liability_current,Current Assets,TRUE
+29999,Clearing Account,liability_current,Current Liabilities,TRUE
 40000,Liabilities,liability_non_current,Non-current Liabilities,FALSE
-42000,Account Payable,liability_current,Current Liabilities,TRUE
+42000,Account Payable,payable,Current Liabilities,TRUE
 60000,Revenue,income,Income,FALSE
 70000,Cost of Sales,expense,Expenses,FALSE
 70200,Purchase Price Difference,expense,Expenses,FALSE
@@ -16,6 +17,7 @@ Code,Name,Type,Group,Reconcile
 73000,Rent,expense,Expenses,FALSE
 74000,Utilities,expense,Expenses,FALSE
 75000,Misc Expenses,expense,Expenses,FALSE
+76000,Stripe Fees,expense,Expenses,FALSE
 78000,Cash Difference Loss,expense,Expenses,FALSE
 90000,Other,expense,Other Expenses,FALSE
 91000,Depreciation,expense,Other Expenses,FALSE
