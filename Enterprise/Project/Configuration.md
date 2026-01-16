@@ -1,10 +1,10 @@
-# 📘 Odoo Project App – Complete User Guide (Humanized Version)
+# Odoo Project App – Complete User Guide 
 
 This guide explains how to use the Odoo Project App in a simple and practical way. It shows how you can manage projects, track costs, handle labor, connect sales and purchases, invoice customers, and finally calculate profit.
 
 ---
 
-## 1. 🌱 Project Starts from Sales
+## 1. Project Starts from Sales
 
 Everything begins with a **Sales Quotation**.
 
@@ -25,7 +25,7 @@ This reference is your project’s identity card 🪪.
 
 ---
 
-## 2. 🗂 Project Structure
+## 2. Project Structure
 
 Inside the Project App, you can manage:
 
@@ -45,20 +45,20 @@ Each project acts like a digital file that holds:
 
 ---
 
-## 3. 🛒 Purchase Orders with Project Reference
+## 3. Purchase Orders with Project Reference
 
 All expenses must be linked to the project.  
 This is done using **Purchase Orders (POs)**.
 
 Each PO must contain:
 - The same **Project Reference**
-- Or a custom **Project field** (recommended)
+- Or a custom **Project field** 
 
 This way, every cost is tied to the correct project.
 
 ---
 
-## 4. 🧱 Purchase Orders for Items (Material Cost)
+## 4. Purchase Orders for Items (Material Cost)
 
 For materials like:
 - Cement
@@ -79,11 +79,11 @@ Now these materials belong to that project.
 
 ---
 
-## 5. 👷 Purchase Orders for Workers / Daily Labor
+## 5. Purchase Orders for Workers / Daily Labor
 
 This is where many people get confused, but it’s actually simple.
 
-### Option A – Treat Labor as a Service Product (Best Practice ⭐)
+### Option A – Treat Labor as a Service Product 
 
 One-time setup:
 Create a product:
@@ -117,7 +117,7 @@ If each worker is paid separately:
 
 ---
 
-## 6. 🔗 Why Linking to Project is Powerful
+## 6. Why Linking to Project is Powerful
 
 When:
 - Sales Order
@@ -133,12 +133,12 @@ You get:
 - No confusion
 - No manual searching
 
-Your project becomes a financial storybook 📖:
+Your project becomes a financial storybook:
 Every rupee has a reason and a place.
 
 ---
 
-## 7. 📊 Reporting & Profit Calculation
+## 7. Reporting & Profit Calculation
 
 Your report logic becomes very simple:
 
@@ -155,14 +155,13 @@ Sales Order = 500,000
 Materials PO = 280,000
 Labor PO = 120,000
 Total Cost = 400,000
-
 Profit = 100,000
 
 Clear. Honest. Reliable.
 
 ---
 
-## 8. 🧾 Timesheets (Optional but Powerful)
+## 8. Timesheets (Optional but Powerful)
 
 If your team logs time:
 - Each employee fills timesheet
@@ -177,18 +176,18 @@ This is for companies that want **professional-grade tracking**.
 
 ---
 
-## 9. 🧠 Reference Field vs Custom Project Field
+## 9. Reference Field vs Custom Project Field
 
 | Method | Pros | Cons |
 |------|------|------|
 Reference Field | Quick | Risk of typing mistakes |
-Custom Project Field ⭐ | Accurate, dropdown based | Needs small customization |
+Custom Project Field | Accurate, dropdown based | Needs small customization |
 
 Recommendation: Always use a **Project field**.
 
 ---
 
-## 10. 🌟 Final Flow in Simple Words
+## 10. Final Flow in Simple Words
 
 1. Quote → Sales Order  
 2. Sales Order → Project  
@@ -201,7 +200,7 @@ Your ERP becomes a living business map 🗺.
 
 ---
 
-## 🧩 Final Thought
+## Final Thought
 
 The Project App is not just a task manager.  
 It is a **financial control system**, a **planning tool**, and a **profit calculator** rolled into one.
